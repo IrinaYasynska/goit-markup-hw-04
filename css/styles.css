@@ -26,7 +26,7 @@
 }
 body {
   margin: auto;
-  width: 1600px;
+  max-width: 1600px;
   color: var(--primary-text-color);
   outline: 1px solid #e5e5e5;
   font-family: Roboto, sans-serif;
@@ -168,7 +168,8 @@ img {
 .hero-container {
   display: flex;
   flex-direction: column;
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   justify-content: center;
   align-items: center;
